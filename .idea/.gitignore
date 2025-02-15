@@ -14,10 +14,9 @@ target/
 # Logs
 *.log
 
-src/main/resources/application.properties
+spring-boot-rest/src/main/resources/application.properties
+**/application.properties
 
-# Sensitive config files
-application.properties
 application.yml
 .env
 
