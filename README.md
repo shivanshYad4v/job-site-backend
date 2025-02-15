@@ -6,6 +6,14 @@ A simple job listing application using:
 - **Backend**: Spring Boot with JPA
 - **Database**: PostgreSQL
 
+## Backend Technologies
+- **Spring Boot** - Framework for building REST APIs
+- **Spring Data JPA** - Database interaction with PostgreSQL
+- **Lombok** - Simplifies boilerplate code
+- **Spring Boot Starter Web** - For building web applications
+- **Spring Boot Starter Test** - Testing utilities
+- **PostgreSQL** - Relational database for persistent storage
+
 ## Setup
 ### Backend:
 1. Clone the repository:
@@ -36,11 +44,13 @@ A simple job listing application using:
    ```
 
 ## API Endpoints
-| Method | Endpoint     | Description  |
-|--------|-------------|--------------|
-| GET    | /api/jobs   | Get all jobs |
-| POST   | /api/jobs   | Create a job |
+| Method | Endpoint         | Description      |
+|--------|-----------------|------------------|
+| GET    | /api/jobs       | Get all jobs    |
+| GET    | /api/jobs/{id}  | Get job by ID   |
+| POST   | /api/jobs       | Create a job    |
+| PUT    | /api/jobs/{id}  | Update a job    |
+| DELETE | /api/jobs/{id}  | Delete a job    |
 
 ## License
 MIT License
-
